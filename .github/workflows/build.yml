@@ -21,7 +21,7 @@ jobs:
       - name: Cài đặt Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '8.9'
+          gradle-version: '8.11.1'
 
       - name: Tự động tìm thư mục dự án và biên dịch APK
         run: |
